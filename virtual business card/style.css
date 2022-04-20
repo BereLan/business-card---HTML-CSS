@@ -216,3 +216,7 @@ body, .modal{
 	}
 }
 
+#btn-modal {
+  display: none;
+}
+

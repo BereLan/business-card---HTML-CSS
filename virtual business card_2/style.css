@@ -267,3 +267,7 @@ body, .modal{
     height: 40%;
     /* border-radius: 0.5rem; */
   }
+  
+  #btn-modal {
+    display: none;
+  }
