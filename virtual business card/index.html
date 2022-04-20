@@ -68,7 +68,7 @@
             </a>
           </li>
           <li>
-            <a href="" target="_blank">
+            <a onclick="return nativeShare();">
               <i class="fa-solid fa-share-nodes"></i>
             </a>
           </li>
@@ -98,6 +98,18 @@
 	</div>
 
   </body>
+  <script>
+		var nativeShare = function() {
+		   if (navigator.share) { 
+			  navigator.share({
+				 title: "Lourdes",
+				 text: "Hola te comparto mi DBi, mi nueva tarjeta de presentación digital. ¡Sigamos en comunicación!",
+				 url: "https://mydbi.mx/d7z1AM5", 
+			  }) 
+		   }
+		   return false;
+		}
+		</script>
 
 </html>
 
