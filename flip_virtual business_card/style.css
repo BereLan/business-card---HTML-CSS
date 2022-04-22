@@ -4,7 +4,8 @@
     box-sizing: border-box; 
     font-size: 100%;
   }
-  
+ 
+
   .card {
     position: relative;
     height: 500px;
